@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AK FITNESS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+    /* CSS RESET */
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('1.png');
+        background-size: cover;
+
+
+        /* height: 1500px;*/
+
+    }
+
+    .left {
+        position: absolute;
+        left: 10px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        /* border: 2px solid green;*/
+
+        width: 50%;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /*border: 2px solid yellow;*/
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+        /* font-size: 18px; */
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+        font-size: 20px;
+
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: yellow;
+    }
+
+    .left img {
+        width: 136px;
+        margin: 0px;
+
+    }
+
+    .btn {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        border: 2px solid green;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 100px;
+        border-color: white;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 3px auto;
+        font-size: 25px;
+        border-radius: 15px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+        border-radius: 50px;
+
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        border-radius: 100%;
+    }
+
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        border-radius: 100%;
+    }
+
+    .fa-google {
+        background: #dd4b39;
+        color: white;
+        border-radius: 100%;
+    }
+
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+        border-radius: 100%;
+    }
+
+    .fa-youtube {
+        background: #bb0000;
+        color: white;
+        border-radius: 100%;
+    }
+
+    .fa-instagram {
+        background: #881282;
+        color: white;
+        border-radius: 100%;
+    }
+
+    .ftr {
+       
+            background-color: black;
+            color: aqua;
+            text-align: center;
+            font-size: larger;
+
+        }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.png" alt="">
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"> HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FITNESS CENTER</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">
+                Call us
+            </button>
+            <button class="btn">
+                Email us
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM OF DELHI</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+
+            </div>
+            <button class="btn">Submit</button>
+            <div class="icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <!--<a href="#" class="fa fa-google"></a>-->
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+
+            </div>
+        </form>
+
+    </div>
+    <footer class="ftr">
+        Copyright &copy; : All rights reserved
+    </footer>
+</body>
+
+</html>
